@@ -1,15 +1,12 @@
 # Website-displayer-docker-
 
 
-A simple Docker container that serves HTML files from a directory.
-
 ## Local Development (Without Docker)
 
 1. **Run the server:**
    ```bash
    python3 server.py
    ```
-   or via docker
 
 2. **Access it:**
    - Open http://localhost:8000 in your browser
