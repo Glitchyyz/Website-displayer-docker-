@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #667eea;
+        }
+        .info {
+            background: #f0f0f0;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 HTML Server Running!</h1>
+        <p>Your Docker HTML server is working perfectly.</p>
+        
+        <div class="info">
+            <strong>Available Pages:</strong>
+            <ul>
+                <li><a href="/index.html">Home (this page)</a></li>
+                <li><a href="/demo.html">Interactive Demo</a></li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <strong>How to Add More Pages:</strong>
+            <ul>
+                <li>Place your HTML files in the <code>html/</code> directory</li>
+                <li>Access them via <code>http://localhost:8000/filename.html</code></li>
+            </ul>
+        </div>
+
+        <p><em>Customize your server by adding more HTML files!</em></p>
+    </div>
+</body>
+</html>
