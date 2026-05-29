@@ -1,5 +1,9 @@
 # Website-displayer-docker-
 
+## Docker
+
+   ` docker pull ghcr.io/glitchyyz/htmlhost:latest
+
 
 ## Local Development (Without Docker)
 
