@@ -2,8 +2,9 @@
 
 ## Docker
 
-   ` docker pull ghcr.io/glitchyyz/htmlhost:latest
-
+```
+ docker pull ghcr.io/glitchyyz/htmlhost:latest
+```
 
 ## Local Development (Without Docker)
 
