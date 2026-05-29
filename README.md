@@ -5,6 +5,7 @@
 ```
  docker pull ghcr.io/glitchyyz/htmlhost:latest
 ```
+ change /app/html to any host path containing html files
 
 ## Local Development (Without Docker)
 
