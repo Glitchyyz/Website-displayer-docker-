@@ -5,9 +5,11 @@
 ```
  docker pull ghcr.io/glitchyyz/htmlhost:latest
 ```
- set /app/html to host path
- set enviroment variable TRUENAS_API_KEY to your truenas api key (not required, only for custom dashboards)
- change /app/html to any host path containing html files
+ 1. Set /app/html to host path
+    
+ 3. Set enviroment variable TRUENAS_API_KEY to your truenas api key (not required, only for custom dashboards)
+    
+ 5. change /app/html to any host path containing html files
 
 ## Local Development (Without Docker)
 
