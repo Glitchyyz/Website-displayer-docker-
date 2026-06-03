@@ -25,3 +25,7 @@
    - Create `html/` directory if it doesn't exist
    - Place your HTML files there
    - Access them at `http://localhost:8000/filename.html`
+
+
+
+DISCLAMER : ai was did assist in the making of this project.
